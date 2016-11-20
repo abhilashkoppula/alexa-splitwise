@@ -1,0 +1,3 @@
+FriendExpenseIntent Add {Expense} to {FriendName}
+FriendExpenseIntent Share {Expense} to {FriendName}
+GroupExpenseIntent Add {Expense} to {GroupName}

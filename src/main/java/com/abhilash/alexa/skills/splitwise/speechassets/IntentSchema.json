@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "intent": "FriendExpenseIntent",
+      "slots": [
+        {
+          "name": "Expense",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "FriendName",
+          "type": "LIST_OF_FRIEND_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "GroupExpenseIntent",
+      "slots": [
+        {
+          "name": "Expense",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "GroupName",
+          "type": "LIST_OF_GROUP_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
